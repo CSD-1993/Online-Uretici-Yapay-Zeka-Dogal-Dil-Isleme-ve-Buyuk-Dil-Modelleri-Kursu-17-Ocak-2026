@@ -2,7 +2,10 @@
 Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil modellerini çeşitli düzeylerde kapsamlı bir biçimde ele almaktadır. Kursumuz yapay zeka alanında devrimsel bir etkiye yol açan bu teknolojilerin teorik altyapıları ve gerçekleştirimleri konusunda uygulamalı bilgiler vermeyi ve beceriler kazandırmayı hedeflemektedir
 
 Kursumuz başlayana kadar Derneğimizin açmış olduğu, "Yapay Zeka, Makine Öğrenmesi ve Veri Bilimi" kurs notlarımızı gözden geçirebilirsiniz.
-https://raw.githubusercontent.com/CSD-1993/KursNotlari/refs/heads/master/YapayZeka-MakineOgrenmesi-VeriBilimi-OzetNotlar-Ornekler.txt
+
+https://github.com/CSD-1993/KursNotlari/blob/master/YapayZeka-MakineOgrenmesi-VeriBilimi-OzetNotlar-Ornekler-Bolum1.txt
+https://github.com/CSD-1993/KursNotlari/blob/master/YapayZeka-MakineOgrenmesi-VeriBilimi-OzetNotlar-Ornekler-Bolum2.txt
+
 
 ## Ön Koşul
  Temel düzeyde Python Programlama Dili bilgisine sahip olmak.
