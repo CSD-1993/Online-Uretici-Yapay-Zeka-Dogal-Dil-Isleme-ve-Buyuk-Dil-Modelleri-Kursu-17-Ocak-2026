@@ -242,7 +242,35 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Mobil Cihazlara Uygun Küçük Dil Modelleri
   * Küçük Dil Modellerinin Eğitimi ve Türetimi Teknikleri
   * Küçük Dil Modellerinin Kullanım Senaryoları ve Deployment
-
+*__Retrieval-Augmented Generation (RAG) Sistemleri__
+  * RAG Temelleri
+    - RAG Neye Yarıyor?
+    - Büyük Dil Modellerinde Halüsinasyon Problemi
+    - Dışsal Bilgi Kaynaklarının Entegre Edilmesi
+    - RAG ile İnce Ayar Mekanizmalarının Karşılaştırması
+  * Retrieval Stratejileri
+    - Dense Retrieval (DPR, ColBERT)
+    - Sparse Retrieval (BM25, TF-IDF)
+    - Hybrid Search
+    - Gömülü Modelleri
+   * Vector VEritabanarı
+    - Pinecone, Weaviate, ChromaDB, Qdrant
+    - Index Tipleri (HNSW, IVF)
+    - Similarity Search
+  * Document Processing
+    - Chunking Stratejileri
+    - Metadata Extraction
+    - Document Loaders
+* Re-ranking ve Filtering
+  - Cross-encoder Re-rankers
+  - Diversity ve MMR
+* Advanced RAG
+  - Self-RAG
+  - Düzeltici (Corrective) RAG (CRAG)
+  - Ajanlı RAG
+* RAG Sistemlerinin Değerlendirilmesi
+  - Retrieval Metrics
+  - Generation Quality
    
 
 
