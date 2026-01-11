@@ -61,25 +61,21 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
       - Atomlar Neden Sayısal Biçimde Temsil Edilmektedir?
       - Makine Öğrenmesi Modelleri ve Vektör Uzayı
       - Benzerlik Hesaplama (Kosinüs Benzerliği, Öklid Uzaklığı)
-    * One-hot-encoding Kodlaması
-    * Sözcük Çantası (Bag of Words) Yaklaşımı
-    * Manuel Gerçekleştirim
-    * scikit-learn Kütüphanesi ile Gerçekleştirim
-
+    * One-hot-encoding ve Sözcük Çantası (Bag of Words) Yaklaşımı
+      - Manuel Gerçekleştirim
+      - scikit-learn Kütüphanesi ile Gerçekleştirim
     * TF-IDF (Terim Frekansı-Ters Doküman Frekansı)
       - TF (Terim Frekansı) Hesaplama
       - IDF (Ters Doküman Frekansı) Hesaplama
       - Normalleştirme Teknikleri
       - Manuel Gerçekleştirim
       - scikit-learn Kütüphanesi ile Gerçekleştirim
-
   * N-Gram Modeller
     - Unigram, Bigram, Trigram Kavramları
     - Bağlamsal Bilginin Yakalanması
     - Karakter vs Kelime N-gramları
     - Manuel Gerçekleştirim
     - scikit-learn Kütüphanesi ile Gerçekleştirim
-
   * BPE Atomlarının Kodlanması
     - Sözcük Dağarcığı → Kimlik Eşleşmesi (Vocabulary → ID Mapping)
     - Atomdan Sayıya Dönüşüm
