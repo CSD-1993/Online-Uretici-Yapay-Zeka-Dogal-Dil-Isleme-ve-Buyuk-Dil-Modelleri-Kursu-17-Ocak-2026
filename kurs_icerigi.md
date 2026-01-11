@@ -155,7 +155,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Öğrenimin Aktarılması Sürecinin (Transfer Learning) Temelleri
   * Evrişim İşlemleri ve Evrişim İşlemlerinin Bağlamsal Anlamı
 * __Dönüştürücüler (Tramsformers) ve Modern Doğal Dil İşlemeye Geçiş__
-   * Temel Kavramlar ve Tarihsel Bağlam
+  * Temel Kavramlar ve Tarihsel Bağlam
      - Dizi İşleme Mimarileri ve Sınırlamaları
      - RNN (Recurrent Neural Networks) Temelleri
     - LSTM ve GRU Mimarileri
@@ -176,12 +176,12 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Çok Başlı (Multi-Head) Dikkat
     - Dikkat Türleri
   * Dikkat Mekanizmasının Tensorflow/Keras ile Gerçekleştirimi
-* Dönüştürücü Mimarileri
-  - Encoder Yapısı
-  - Decoder Yapısı
-  - Pozisyonel Encoding
-  - Dönüştürücülerin Diğer Bileşenleri
-  - Dönüştürücülerin Tensorflow/Keras İle Gerçekleştirimi
+  * Dönüştürücü Mimarileri
+    - Encoder Yapısı
+    - Decoder Yapısı
+    - Pozisyonel Encoding
+    - Dönüştürücülerin Diğer Bileşenleri
+    - Dönüştürücülerin Tensorflow/Keras İle Gerçekleştirimi
 
     - 
 
