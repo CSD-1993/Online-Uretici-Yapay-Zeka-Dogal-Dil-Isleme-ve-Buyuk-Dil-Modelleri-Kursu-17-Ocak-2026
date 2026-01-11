@@ -22,6 +22,244 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Veri Madenciliği Nedir?
   * Doğal Dil İşleme Medir?
 
+# NLP Kurs İçeriği - Atomlarına Ayırma ve Sayısal Temsil
+
+## BÖLÜM 1: Metinlerin Atomlarına Ayrılması (Tokenization)
+
+### 1.1 Temel Kavramlar
+- Sözcük Dağarcığı (Vocabulary)
+- Derlem (Corpus)
+- Doküman (Document)
+- Atom vs Tip Kavramları (Token vs Type)
+
+### 1.2 Atom Düzeyleri
+- Karakter Düzeyinde Atomlarına Ayırma
+- Sözcük Düzeyinde Atomlarına Ayırma
+- Altsözcük Düzeyinde Atomlarına Ayırma (Subword)
+
+### 1.3 Temel Atomlarına Ayırma Yöntemleri
+- Boşluk ve Noktalama Tabanlı Ayırma
+- Kural Tabanlı Atomlarına Ayırma
+- Manuel Gerçekleştirim
+
+### 1.4 Altsözcük Düzeyinde Atomlarına Ayırma Algoritmaları
+
+#### 1.4.1 Byte Çiftlerinin Kodlanması (Byte Pair Encoding - BPE)
+- Algoritma Mantığı
+- Birleştirme İşlemleri (Merge Operations)
+- Manuel Gerçekleştirim
+
+#### 1.4.2 WordPiece Yöntemi
+- BPE'den Farkları
+- Olabilirlik Tabanlı Birleştirme (Likelihood-based Merging)
+- Manuel Gerçekleştirim
+
+#### 1.4.3 Unigram Dil Modeli (Unigram Language Model)
+- Yukarıdan Aşağıya Yaklaşım (Top-down Approach)
+- Olasılıksal Budama (Probabilistic Pruning)
+
+### 1.5 Kütüphaneler ile Atomlarına Ayırma
+- NLTK Kütüphanesi İle Atomlarına Ayırma
+- SpaCy Kütüphanesi İle Atomlarına Ayırma
+- Hugging Face Tokenizers Kütüphanesi İle Atomlarına Ayırma
+- SentencePiece Kütüphanesi İle Atomlarına Ayırma (BPE ve Unigram Modları)
+- Zemberek Kütüphanesi İle Atomlarına Ayırma (Türkçe için)
+
+---
+
+## BÖLÜM 2: Atomların Sayısal Biçimde Temsil Edilmesi
+
+### 2.1 Atomlar Neden Sayısal Biçimde Temsil Edilmektedir?
+- Makine Öğrenmesi Modelleri ve Vektör Uzayı
+- Benzerlik Hesaplama (Kosinüs Benzerliği, Öklid Uzaklığı)
+
+### 2.2 Klasik Yöntemler
+
+#### 2.2.1 Tek-Sıcak Kodlama (One-Hot Encoding) ve Sözcük Çantası (Bag of Words)
+- Tek-Sıcak Kodlama Mantığı
+- Sözcük Çantası Yaklaşımı
+- Avantajları ve Dezavantajları
+- Manuel Gerçekleştirim
+- scikit-learn Kütüphanesi ile Gerçekleştirim
+
+#### 2.2.2 TF-IDF (Terim Frekansı-Ters Doküman Frekansı)
+- TF (Terim Frekansı) Hesaplama
+- IDF (Ters Doküman Frekansı) Hesaplama
+- Normalleştirme Teknikleri
+- Manuel Gerçekleştirim
+- scikit-learn Kütüphanesi ile Gerçekleştirim
+
+#### 2.2.3 N-Gram Modeller
+- Unigram, Bigram, Trigram Kavramları
+- Bağlamsal Bilginin Yakalanması
+- Karakter vs Kelime N-gramları
+- Manuel Gerçekleştirim
+- scikit-learn Kütüphanesi ile Gerçekleştirim
+
+### 2.3 Altsözcük Atomlarının Sayısal Temsili
+
+#### 2.3.1 BPE Atomlarının Kodlanması
+- Sözcük Dağarcığı → Kimlik Eşleşmesi (Vocabulary → ID Mapping)
+- Atomdan Sayıya Dönüşüm
+- Manuel Gerçekleştirim
+- Hugging Face Tokenizers ile Kullanım
+
+#### 2.3.2 WordPiece Atomlarının Kodlanması
+- BERT Tokenizer Kullanımı (Hugging Face Transformers)
+- Özel Simgeler (Special Tokens): [CLS], [SEP], [PAD], [MASK], [UNK]
+- Dikkat Maskeleri (Attention Masks)
+- Girdi Hazırlama (Input Preparation)
+
+#### 2.3.3 SentencePiece ile Kodlama
+- BPE Modu
+- Unigram Modu
+- Model Eğitimi ve Kullanımı
+- Sözcük Dağarcığı Yönetimi
+
+#### 2.3.4 Tiktoken (OpenAI GPT Atomlarına Ayırma)
+- GPT-2/3/4 Tokenizer Kullanımı
+- Atom Sayısı Hesaplama
+- API Atom Limitleri
+
+### 2.4 Sözcük Gömme (Word Embeddings)
+
+#### 2.4.1 Temel Kavramlar
+- Seyrek vs Yoğun Temsiller (Sparse vs Dense Representations)
+- Dağılımsal Anlambilim (Distributional Semantics)
+- Gömme Uzayı Özellikleri
+- Boyut İndirgeme vs Öğrenilmiş Gömmeler
+
+#### 2.4.2 Word2Vec Algoritması
+- Skip-gram Modeli
+- CBOW (Sürekli Sözcük Çantası - Continuous Bag of Words)
+- Basitleştirilmiş Manuel İmplementasyon
+- Gensim Kütüphanesi ile Gerçekleştirim
+- Önceden Eğitilmiş Modeller (Pre-trained) (Türkçe Gömmeler)
+- Benzerlik ve Analoji Testleri
+
+#### 2.4.3 GloVe (Küresel Vektörler) Algoritması
+- Birlikte Görülme Matrisi (Co-occurrence Matrix)
+- Word2Vec'e Göre Farkları
+- Önceden Eğitilmiş GloVe Modelleri Kullanımı
+
+#### 2.4.4 FastText Algoritması
+- Altsözcük Bilgisi Kullanımı (Subword Information)
+- Karakter N-gramları
+- Sözcük Dağarcığı Dışı Sözcük İşleme (OOV Handling)
+- Gensim Kütüphanesi ile Gerçekleştirim
+
+#### 2.4.5 Pratik Uygulamalar
+- Türkçe Derlem Üzerinde Gömme Eğitimi
+- Kelime Analogileri (kral - erkek + kadın = ?)
+- Kelime Benzerliği Testleri
+- Gömme Görselleştirme (t-SNE, PCA)
+
+### 2.5 Doküman ve Cümle Gömmeleri
+
+#### 2.5.1 Basit Birleştirme Yöntemleri (Aggregation)
+- Ortalama Havuzlama (Average Pooling)
+- Ağırlıklı Ortalama (TF-IDF Ağırlıklandırma)
+- Maksimum/Minimum Havuzlama
+- Manuel İmplementasyon
+
+#### 2.5.2 Doc2Vec (Paragraf Vektörleri)
+- PV-DM ve PV-DBOW
+- Gensim Kütüphanesi ile Kullanım
+
+#### 2.5.3 Cümle Dönüştürücüleri (Sentence Transformers - SBERT)
+- SBERT Yaklaşımı
+- sentence-transformers Kütüphanesi
+- Önceden Eğitilmiş Modeller
+- Anlamsal Arama Uygulamaları
+
+### 2.6 Bağlamsal Gömme İşlemleri (Contextualized Embeddings)
+
+#### 2.6.1 Statik vs Bağlamsal Gömmeler
+- Çok Anlamlılık Problemi (Polysemy)
+- Bağlama Bağlı Temsiller
+
+#### 2.6.2 BERT Gömmeleri (WordPiece Kullanımı)
+- BERT Atomlarına Ayırma Hattı (Pipeline)
+- Gömme Çıkarımı (Embedding Extraction)
+- Hugging Face Transformers ile Kullanım
+- BERTurk (Türkçe BERT)
+
+#### 2.6.3 GPT Gömmeleri (BPE Kullanımı)
+- GPT Atomlarına Ayırma Hattı
+- Byte Düzeyinde BPE
+- Gömme Çıkarımı
+
+#### 2.6.4 Diğer Modern Modeller
+- RoBERTa (BPE Kullanımı)
+- T5 (SentencePiece Unigram)
+- ALBERT (SentencePiece Unigram)
+
+### 2.7 Karşılaştırmalı Analiz ve En İyi Uygulamalar
+
+#### 2.7.1 Yöntemlerin Karşılaştırılması
+- Sözcük Çantası/TF-IDF: Ne Zaman Kullanılmalı?
+- Gömmeler: Ne Zaman Kullanılmalı?
+- Altsözcük Atomlarına Ayırma: Optimal Sözcük Dağarcığı Boyutu
+
+#### 2.7.2 Değerlendirme Ölçütleri
+- İçsel Değerlendirme (Intrinsic): Kelime Benzerliği, Analoji
+- Dışsal Değerlendirme (Extrinsic): Alt Görev Performansı
+
+#### 2.7.3 Türkçe İçin Özel Hususlar
+- Morfolojik Zenginlik
+- Eklemeli Dil Özellikleri (Agglutinative)
+- Türkçe Önceden Eğitilmiş Modeller
+- Ön İşleme En İyi Uygulamaları
+
+#### 2.7.4 Büyük Proje
+- Çok Sınıflı Metin Sınıflandırma
+- Farklı Temsil Yöntemlerinin Karşılaştırılması
+- Performans Analizi ve Raporlama
+
+---
+
+## Kullanılacak Kütüphaneler
+
+### Temel Kütüphaneler
+- `numpy`, `pandas`: Veri İşleme
+- `scikit-learn`: Klasik Yöntemler (Sözcük Çantası, TF-IDF)
+- `gensim`: Word2Vec, FastText, Doc2Vec
+- `nltk`: Metin Ön İşleme
+
+### Altsözcük Atomlarına Ayırma
+- `tokenizers` (Hugging Face): BPE, WordPiece
+- `sentencepiece`: Google SentencePiece (BPE ve Unigram)
+
+### Modern NLP
+- `transformers` (Hugging Face): BERT, GPT Atomlarına Ayırıcıları
+- `sentence-transformers`: Cümle Gömmeleri
+- `tiktoken`: OpenAI GPT Atomlarına Ayırma
+
+### Türkçe NLP
+- `zemberek-python`: Türkçe Atomlarına Ayırma
+
+### Görselleştirme
+- `matplotlib`, `seaborn`: Temel Görselleştirme
+- `plotly`: Etkileşimli Grafikler
+- `sklearn.manifold.TSNE`: Boyut İndirgeme
+
+---
+
+## Önkoşullar
+- Python Programlama (Orta Seviye)
+- Temel Doğrusal Cebir (Linear Algebra)
+- Temel Olasılık ve İstatistik
+- NumPy ve Pandas Bilgisi
+
+## Kurs Çıktıları
+Kurs sonunda katılımcılar:
+1. Tüm önemli atomlarına ayırma ve kodlama yöntemlerini anlayacak
+2. Sıfırdan gerçekleştirim yapabilecek
+3. Ürün ortamına hazır (production-ready) kütüphaneleri kullanabilecek
+4. Hangi yöntemin hangi problem için uygun olduğuna karar verebilecek
+5. Türkçe için özel optimizasyonlar yapabilecek
+6. Modern dönüştürücü modellerinin (transformer) atomlarına ayırma stratejilerini anlayacak
+   
 * __Metinlerin Atomlarına Ayrılması (Tokenizastion)__
   * Sözcük Dağarcığı (Vocabulary), Derlem (Corpus) ve Doküman (Document) Kavramları
   * Atom Nedir? Atomlara Ayırma Ne Anlama Gelmektedir?
