@@ -28,7 +28,6 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Derlem (Corpus)
     - Doküman (Document)
     - Atom vs Tip Kavramları (Token vs Type)
-      
   * Atom Düzeyleri
     - Karakter Düzeyinde Atomlarına Ayırma
     - Sözcük Düzeyinde Atomlarına Ayırma
