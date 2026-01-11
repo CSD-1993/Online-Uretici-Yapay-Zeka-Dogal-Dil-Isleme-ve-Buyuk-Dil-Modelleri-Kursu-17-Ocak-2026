@@ -8,7 +8,10 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
    * Yapay Zeka, Makine Öğrenmesi ve Veri Bilimi İçin Neden Python? 
    * Yapay Zeka, Makine Öğrenmesi ve Veri Biliminde Diğer Programlama Dillerinin Avantajları ve Dezavantajları
    * Python Programlama Dilinin Yeniden Gözden Geçirilmesi
-   * scikit-learn, Scipy, Numpy, Pandas ve Matplotlib Kütüphanelerinin Yeniden Gözden Geçirilmesi
+   * Scipy, Numpy, Pandas ve Matplotlib Kütüphanelerinin Genel Tanıtımı
+   * SciPy ve scikit-learn Kütüphanelerinin Genel Tanıtımı
+   * Tensorflow, Keras ve PyTorch Kütüphanelerinin Genel Tanıtımı
+   * HuggingFace Kütüphanelerinin Genel Tanıtımı
 
 * __Giriş ve Temel Bilgiler__
 
@@ -27,11 +30,14 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Karakter Düzeyinde Atomlarına Ayrıştırma (Character Level Tokenization)
   * Söcük Düzeyinde Atomlarına Ayrıştırma (Word Level Tokenization)
   * Altsözcük Düzeyinde Atomlarına Ayrıştırma (Subword Tokenization)
-  * 
-  * Boşluklardan ve Noktalama İşaretlerinden FaydalanarakAtomlarına Ayırma Yöntemi
-  * Kural Tabanlı Atomlarına Ayırma İşlemleri
-  
-  * Metinlerin Atomlarına Ayrılması (Tokenzation)
+  * Boşluklardan ve Noktalama İşaretlerinden FaydalanarakAtomlarına Ayırma Yönteminin Gerçekelştirimi
+  * Kural Tabanlı Atomlarına Ayırma İşlemleri Gerçekelştirimi
+  * Altsözcük Düzeyinde Atomlarına Ayrıştırma (Subword Tokenization) Yöntemlerinin Gerçekleştirilmesi
+  * Byte Çiftlerinin Kodlanması (Byte Pair Encoding) Yönteminin Gerçekleştirilmesi
+  * WordPiece Yönteminin Gerçekleştirilmesi
+  * SentencePiece Yönteminin Gerçekleştirilmesi
+  * NLTK Kütüphanesi İle Atomlşara Ayırma
+  * HauggingFace Transformers Kütüphanesi İle Atomlara Ayırma İşlemleri 
 
 * __Klasik Doğal Dil İşlemede Temel İşlemler__
   * Kök Bulma (Stemming) ve Kök Biçimleme (Lemmatization) İşlemleri
