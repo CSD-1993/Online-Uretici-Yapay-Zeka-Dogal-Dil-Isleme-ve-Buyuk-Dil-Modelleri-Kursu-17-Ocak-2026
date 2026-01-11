@@ -21,7 +21,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Veri Madenciliği Nedir?
   * Doğal Dil İşleme Medir?
 
- __Klasik NLP'de Temel İşlemler__
+*  __Klasik NLP'de Temel İşlemler__
  
   * Metinlerin Atomlarına Ayrılması (Tokenzation
   * Kök Bulma (Stemming) ve Kök Biçimleme (Lemmatization) İşlemleri
