@@ -21,9 +21,19 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Veri Madenciliği Nedir?
   * Doğal Dil İşleme Medir?
 
+* __Metinlerin Atomlarına Ayrıştırılması (Tokenizastion)__
+  * Atom Nedir? Atomlara Ayrıştırma Ne Anlama Gelmektedir?
+  * Sözük Dağarcığı (Vocabulary) Kavramı
+  * Karakter Düzeyinde Atomlarına Ayırma (Character Level Tokenization)
+  * Söcük Düzeyinde Atomlarına Ayırma (Word Level Tokenization)
+  * Altsözcük Düzey,nde Atomlarına Ayırma (Subword Tokenization)
+  * 
+  * Boşluklardan ve Noktalama İşaretlerinden FaydalanarakAtomlarına Ayırma Yöntemi
+  * Kural Tabanlı Atomlarına Ayırma İşlemleri
+  
+  * Metinlerin Atomlarına Ayrılması (Tokenzation)
+
 * __Klasik Doğal Dil İşlemede Temel İşlemler__
- 
-  * Metinlerin Atomlarına Ayrılması (Tokenzation
   * Kök Bulma (Stemming) ve Kök Biçimleme (Lemmatization) İşlemleri
   * Durak Sözcüklerinin (Stopwords) Atılması 
   * Metinlerin Sayısal Temsili
