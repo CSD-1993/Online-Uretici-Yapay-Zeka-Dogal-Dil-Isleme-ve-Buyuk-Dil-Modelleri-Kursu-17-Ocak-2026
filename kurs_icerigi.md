@@ -210,7 +210,25 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Pipeline API ile Hızlı Kullanım
     - İnce Ayar İşlemleri İşlemleri
     - Model Kaydetme ve Yükleme
-
+*__ Büyük Dil Modelleri__
+  * Büyük Dil Modellerinin Temelleri ve Ölçeklendirme
+    - Büyük Dil Modellerine Giriş
+    - Model Ölçeklendirme Stratejileri
+    - LLM Mimarisi Evrimleri
+    - Atomlarına Ayırma Stratejileri
+  * Büyük Dil Modelleri ve Önceden Eğitim 
+    - Autoregressive Language Modeling
+    - Önceden Eğitilmiş Veri Kümeleri
+    - Pre-training Optimizasyonu
+  * Dağıtık Biçimde Eğitimin Yapılış Biçimleri
+  * Stabilite
+  * Büyük Dil Modellerinde İnce Ayar (Fine Tuning) ve Adaptasyon
+    - Denetimli İnce Ayar Mekanizmaları (SFT)
+    - Parameter-Efficient Fine-tuning (PEFT)
+    - Pekiştirmeli Öğrenmeden Faydalanma
+    - Direct Preference Optimization (DPO)
+    - Diğer Teknikler
+    
 
 
 
