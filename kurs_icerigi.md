@@ -119,6 +119,35 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Değerlendirme Ölçütleri
     - İçsel Değerlendirme (Intrinsic): Kelime Benzerliği, Analoji
     - Dışsal Değerlendirme (Extrinsic): Alt Görev Performansı
+* __Klasik Doğal Dil İşleme Algoritmalarının Temel Olarak Gözden Geçirilmesi__
+  * Naive Bayes Yöntemi
+  * Lojistik Regresyon Yöntemi
+  * Destek Vektör Makineleri (SVM) Yöntemi
+  * Koşullu Rastgele Alanlar (CRF) Yöntemi
+  * LDA (Latent Dirichlet Allocation) Yöntemi
+  * LSA (Latent Semantic Analysis) Yöntemi
+* __Modern Doğal Dil İşleme Yöntemlerine Hazırlık__
+   * Yapay Sinir Ağı Nedir?
+  * Yapay Sinir Ağlarının Tarihsel Gelişimi
+  * Yapay Sinir Ağlarının Uygulama Alanları
+  * Yapay Nöron Modeli
+  * Yapay Bir Nöronun Python'da Sınıfsal Temsili
+  * Aktivasyon Fonksiyonları ve Nöron Bağlantıları
+  * Yapay Sinir Ağlarında Katmanlar
+  * Yapay Sinir Ağlarında Yaygın Kullanılan Kütüphaneler ve Framework'ler
+  * Yapay Sinir Ağlarında Veri Kümeleri (Eğitim Veri Kümesi, Sınama Veri Kümesi ve Test Veri Kümesi)
+  * Keras Kütüphanesinin Kısa Tarihi
+  * Keras Kütüphanesinin Kurulumu
+  * Yapay Sinir Ağlarının Keras Kütüphanesi İle Yüksek Seviyeli Biçimde Oluşturulması
+  * Girdi Katmanlarının, Ara Katmanların ve Çıktı Katmanlarının Oluşturulması
+  * Loss Fonksiyonlarının Anlamı ve Çok Kullanılan Loss Fonksiyonları
+  * Optimizasyon Algoritmalarının Anlamı ve Çok Kullanılan Optimizasyon Algoritmaları
+  * Keras'ta Yapay Sinir Ağı Modelinin Eğitilmesi
+  * Epoch ve Batch Kavramları
+  * Sınama (Validation) İşleminin Anlamı
+  * Test Veri Kümesi ile Yapay Sinir Ağı Modelinin Test Edilmesi
+  * Keras Modelinin Dosyalarda Saklanması ve Geri Yüklenmesi
+
 
 
 # Kursa Kayıt
