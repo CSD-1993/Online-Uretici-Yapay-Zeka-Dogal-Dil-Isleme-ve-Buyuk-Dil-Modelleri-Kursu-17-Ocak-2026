@@ -24,10 +24,10 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
 
 __Metinlerin Atomlarına Ayrılması (Tokenization)__
   * Temel Kavramlar
-  - Sözcük Dağarcığı (Vocabulary)
-  - Derlem (Corpus)
-  - Doküman (Document)
-  - Atom vs Tip Kavramları (Token vs Type)
+    - Sözcük Dağarcığı (Vocabulary)
+    - Derlem (Corpus)
+    - Doküman (Document)
+    - Atom vs Tip Kavramları (Token vs Type)
 
   * Atom Düzeyleri
     - Karakter Düzeyinde Atomlarına Ayırma
@@ -37,7 +37,7 @@ __Metinlerin Atomlarına Ayrılması (Tokenization)__
   * Temel Atomlarına Ayırma Yöntemleri
     - Boşluk ve Noktalama Tabanlı Atomlarına Ayırma
     - Kural Tabanlı Atomlarına Ayırma
-  - Manuel Gerçekleştirim
+    - Manuel Gerçekleştirim
 
 ### Altsözcük Düzeyinde Atomlarına Ayırma Algoritmaları
 
