@@ -24,9 +24,9 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
 * __Metinlerin Atomlarına Ayrıştırılması (Tokenizastion)__
   * Atom Nedir? Atomlara Ayrıştırma Ne Anlama Gelmektedir?
   * Sözük Dağarcığı (Vocabulary) Kavramı
-  * Karakter Düzeyinde Atomlarına Ayırma (Character Level Tokenization)
-  * Söcük Düzeyinde Atomlarına Ayırma (Word Level Tokenization)
-  * Altsözcük Düzey,nde Atomlarına Ayırma (Subword Tokenization)
+  * Karakter Düzeyinde Atomlarına Ayrıştırma (Character Level Tokenization)
+  * Söcük Düzeyinde Atomlarına Ayrıştırma (Word Level Tokenization)
+  * Altsözcük Düzeyinde Atomlarına Ayrıştırma (Subword Tokenization)
   * 
   * Boşluklardan ve Noktalama İşaretlerinden FaydalanarakAtomlarına Ayırma Yöntemi
   * Kural Tabanlı Atomlarına Ayırma İşlemleri
