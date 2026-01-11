@@ -18,10 +18,19 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Makine Öğrenmesinin Diğer Disiplinlerle İlgisi
   * Makine Öğrenmesi İçin Ne Kadar Matematik ve İstatistik Bilmek Gerekir?
   * Veri Bilimi ile Yapay Zeka ve Makine Öğrenmesi Arasındaki İlişki
-  * * Veri Madenciliği Nedir?
+  * Veri Madenciliği Nedir?
   * Doğal Dil İşleme Medir?
 
-  
+  * __Klasik NLP'de Temel İşlemler__
+  * Metinlerin Atomlarına Ayrılması (Tokenzation
+  * Kök Bulma (Stemming) ve Kök Biçimleme (Lemmatization) İşlemleri
+  * Durak Sözcüklerinin (Stopwords) Atılması 
+  * Metinlerin Sayısal Temsili
+  * One-Hot-Encoding Yöntemi
+  * Sözcük Çantası (Bag of Words) Yöntemleri
+  * TF-IDF Yöntemi
+
+  * 
   
 # Kursa Kayıt
 [Kursumuza ön kayıt yaptırmak için bu bağlantıyı kullanabilirsiniz.](https://us02web.zoom.us/meeting/register/A2N5yVVXStuiYN0tAXTeJw#/registration)
