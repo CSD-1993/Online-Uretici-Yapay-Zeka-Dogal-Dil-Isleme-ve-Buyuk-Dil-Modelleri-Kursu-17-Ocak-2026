@@ -73,113 +73,107 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Manuel Gerçekleştirim
     - scikit-learn Kütüphanesi ile Gerçekleştirim
 
-#### N-Gram Modeller
-- Unigram, Bigram, Trigram Kavramları
-- Bağlamsal Bilginin Yakalanması
-- Karakter vs Kelime N-gramları
-- Manuel Gerçekleştirim
-- scikit-learn Kütüphanesi ile Gerçekleştirim
+* N-Gram Modeller
+  - Unigram, Bigram, Trigram Kavramları
+  - Bağlamsal Bilginin Yakalanması
+  - Karakter vs Kelime N-gramları
+  - Manuel Gerçekleştirim
+  - scikit-learn Kütüphanesi ile Gerçekleştirim
 
-### Altsözcük Atomlarının Sayısal Temsili
+* BPE Atomlarının Kodlanması
+  - Sözcük Dağarcığı → Kimlik Eşleşmesi (Vocabulary → ID Mapping)
+  - Atomdan Sayıya Dönüşüm
+  - Manuel Gerçekleştirim
+  - Hugging Face Tokenizers ile Kullanım
 
-#### BPE Atomlarının Kodlanması
-- Sözcük Dağarcığı → Kimlik Eşleşmesi (Vocabulary → ID Mapping)
-- Atomdan Sayıya Dönüşüm
-- Manuel Gerçekleştirim
-- Hugging Face Tokenizers ile Kullanım
+* WordPiece Atomlarının Kodlanması
+  - BERT Tokenizer Kullanımı (Hugging Face Transformers)
+  - Özel Simgeler (Special Tokens): [CLS], [SEP], [PAD], [MASK], [UNK]
+  - Dikkat Maskeleri (Attention Masks)
+  - Girdi Hazırlama (Input Preparation)
 
-#### WordPiece Atomlarının Kodlanması
-- BERT Tokenizer Kullanımı (Hugging Face Transformers)
-- Özel Simgeler (Special Tokens): [CLS], [SEP], [PAD], [MASK], [UNK]
-- Dikkat Maskeleri (Attention Masks)
-- Girdi Hazırlama (Input Preparation)
+* SentencePiece ile Kodlama
+  - BPE Modu
+  - Unigram Modu
+  - Model Eğitimi ve Kullanımı
+  - Sözcük Dağarcığı Yönetimi
 
-#### SentencePiece ile Kodlama
-- BPE Modu
-- Unigram Modu
-- Model Eğitimi ve Kullanımı
-- Sözcük Dağarcığı Yönetimi
+* Tiktoken (OpenAI GPT Atomlarına Ayırma)
+  - GPT-2/3/4 Tokenizer Kullanımı
+  - Atom Sayısı Hesaplama
+  - API Atom Limitleri
 
-#### Tiktoken (OpenAI GPT Atomlarına Ayırma)
-- GPT-2/3/4 Tokenizer Kullanımı
-- Atom Sayısı Hesaplama
-- API Atom Limitleri
+* Sözcük Gömme (Word Embeddings)
+  - Seyrek vs Yoğun Temsiller (Sparse vs Dense Representations)
+  - Dağılımsal Anlambilim (Distributional Semantics)
+  - Gömme Uzayı Özellikleri
+  - Boyut İndirgeme vs Öğrenilmiş Gömmeler
 
-### Sözcük Gömme (Word Embeddings)
+* Word2Vec Algoritması
+  - Skip-gram Modeli
+  - CBOW (Sürekli Sözcük Çantası - Continuous Bag of Words)
+  - Basitleştirilmiş Manuel İmplementasyon
+  - Gensim Kütüphanesi ile Gerçekleştirim
+  - Önceden Eğitilmiş Modeller (Pre-trained) (Türkçe Gömmeler)
+  - Benzerlik ve Analoji Testleri
 
-#### Temel Kavramlar
-- Seyrek vs Yoğun Temsiller (Sparse vs Dense Representations)
-- Dağılımsal Anlambilim (Distributional Semantics)
-- Gömme Uzayı Özellikleri
-- Boyut İndirgeme vs Öğrenilmiş Gömmeler
+* GloVe Algoritması
+  - Birlikte Görülme Matrisi (Co-occurrence Matrix)
+  - Word2Vec'e Göre Farkları
+  - Önceden Eğitilmiş GloVe Modelleri Kullanımı
 
-#### Word2Vec Algoritması
-- Skip-gram Modeli
-- CBOW (Sürekli Sözcük Çantası - Continuous Bag of Words)
-- Basitleştirilmiş Manuel İmplementasyon
-- Gensim Kütüphanesi ile Gerçekleştirim
-- Önceden Eğitilmiş Modeller (Pre-trained) (Türkçe Gömmeler)
-- Benzerlik ve Analoji Testleri
+* FastText Algoritması
+  - Altsözcük Bilgisi Kullanımı (Subword Information)
+  - Karakter N-gramları
+  - Sözcük Dağarcığı Dışı Sözcük İşleme (OOV Handling)
+  - Gensim Kütüphanesi ile Gerçekleştirim
 
-#### GloVe (Küresel Vektörler) Algoritması
-- Birlikte Görülme Matrisi (Co-occurrence Matrix)
-- Word2Vec'e Göre Farkları
-- Önceden Eğitilmiş GloVe Modelleri Kullanımı
+* Doküman ve Cümle Gömmeleri
+  - Basit Birleştirme Yöntemleri (Aggregation)
+    - Ortalama Havuzlama (Average Pooling)
+    - Ağırlıklı Ortalama (TF-IDF Ağırlıklandırma)
+    - Maksimum/Minimum Havuzlama (Max/Min Pooling)
+    - Manuel Gerçekleştirimler
 
-#### FastText Algoritması
-- Altsözcük Bilgisi Kullanımı (Subword Information)
-- Karakter N-gramları
-- Sözcük Dağarcığı Dışı Sözcük İşleme (OOV Handling)
-- Gensim Kütüphanesi ile Gerçekleştirim
+* Doc2Vec (Paragraf Vektörleri)
+    - PV-DM ve PV-DBOW
+    - Gensim Kütüphanesi ile Kullanım
 
-### Doküman ve Cümle Gömmeleri
+* Cümle Dönüştürücüleri (Sentence Transformers - SBERT)
+    - SBERT Yaklaşımı
+    - sentence-transformers Kütüphanesi
+    - Önceden Eğitilmiş Modeller
+  
+* Bağlamsal Gömme İşlemleri (Contextualized Embeddings)
 
-#### Basit Birleştirme Yöntemleri (Aggregation)
-- Ortalama Havuzlama (Average Pooling)
-- Ağırlıklı Ortalama (TF-IDF Ağırlıklandırma)
-- Maksimum/Minimum Havuzlama (Max/Min Pooling)
-- Manuel Gerçekleştirimler
+* Statik ve Bağlamsal Gömmeler
+  - Çok Anlamlılık Problemi (Polysemy)
+  - Bağlama Bağlı Temsiller
 
-#### Doc2Vec (Paragraf Vektörleri)
-- PV-DM ve PV-DBOW
-- Gensim Kütüphanesi ile Kullanım
+* 2BERT Gömmeleri (WordPiece Kullanımı)
+  - BERT Atomlarına Ayırma Hattı (Pipeline)
+  - Gömme Çıkarımı (Embedding Extraction)
+  - Hugging Face Transformers ile Kullanım
+-   BERTurk (Türkçe BERT)
 
-#### Cümle Dönüştürücüleri (Sentence Transformers - SBERT)
-- SBERT Yaklaşımı
-- sentence-transformers Kütüphanesi
-- Önceden Eğitilmiş Modeller
-- Anlamsal Arama Uygulamaları
+* GPT Gömmeleri (BPE Kullanımı)
+  - GPT Atomlarına Ayırma Hattı
+  - Byte Düzeyinde BPE
+  - Gömme Çıkarımı
 
-### Bağlamsal Gömme İşlemleri (Contextualized Embeddings)
+* Diğer Modern Modeller
+  - RoBERTa (BPE Kullanımı)
+  - T5 (SentencePiece Unigram)
+  - ALBERT (SentencePiece Unigram)
 
-#### Statik ve Bağlamsal Gömmeler
-- Çok Anlamlılık Problemi (Polysemy)
-- Bağlama Bağlı Temsiller
+* Yöntemlerin Karşılaştırılması
+  - Sözcük Çantası/TF-IDF: Ne Zaman Kullanılmalı?
+  - Gömmeler: Ne Zaman Kullanılmalı?
+  - Altsözcük Atomlarına Ayırma: Optimal Sözcük Dağarcığı Boyutu
 
-#### 2BERT Gömmeleri (WordPiece Kullanımı)
-- BERT Atomlarına Ayırma Hattı (Pipeline)
-- Gömme Çıkarımı (Embedding Extraction)
-- Hugging Face Transformers ile Kullanım
-- BERTurk (Türkçe BERT)
-
-#### GPT Gömmeleri (BPE Kullanımı)
-- GPT Atomlarına Ayırma Hattı
-- Byte Düzeyinde BPE
-- Gömme Çıkarımı
-
-####  Diğer Modern Modeller
-- RoBERTa (BPE Kullanımı)
-- T5 (SentencePiece Unigram)
-- ALBERT (SentencePiece Unigram)
-
-#### 2.7.1 Yöntemlerin Karşılaştırılması
-- Sözcük Çantası/TF-IDF: Ne Zaman Kullanılmalı?
-- Gömmeler: Ne Zaman Kullanılmalı?
-- Altsözcük Atomlarına Ayırma: Optimal Sözcük Dağarcığı Boyutu
-
-#### Değerlendirme Ölçütleri
-- İçsel Değerlendirme (Intrinsic): Kelime Benzerliği, Analoji
-- Dışsal Değerlendirme (Extrinsic): Alt Görev Performansı
+* Değerlendirme Ölçütleri
+  - İçsel Değerlendirme (Intrinsic): Kelime Benzerliği, Analoji
+  - Dışsal Değerlendirme (Extrinsic): Alt Görev Performansı
 
 ## Kurs Çıktıları
 Kurs sonunda katılımcılar:
