@@ -109,17 +109,17 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Ağırlıklı Ortalama (TF-IDF Ağırlıklandırma)
     - Maksimum/Minimum Havuzlama (Max/Min Pooling)
     - Manuel Gerçekleştirimler
-* Diğer Modern Modeller
-  - RoBERTa (BPE Kullanımı)
-  - T5 (SentencePiece Unigram)
-  - ALBERT (SentencePiece Unigram)
-* Yöntemlerin Karşılaştırılması
-  - Sözcük Çantası/TF-IDF: Ne Zaman Kullanılmalı?
-  - Gömmeler: Ne Zaman Kullanılmalı?
-  - Altsözcük Atomlarına Ayırma: Optimal Sözcük Dağarcığı Boyutu
-* Değerlendirme Ölçütleri
-  - İçsel Değerlendirme (Intrinsic): Kelime Benzerliği, Analoji
-  - Dışsal Değerlendirme (Extrinsic): Alt Görev Performansı
+  * Diğer Modern Modeller
+    - RoBERTa (BPE Kullanımı)
+    - T5 (SentencePiece Unigram)
+    - ALBERT (SentencePiece Unigram)
+  * Yöntemlerin Karşılaştırılması
+    - Sözcük Çantası/TF-IDF: Ne Zaman Kullanılmalı?
+    - Gömmeler: Ne Zaman Kullanılmalı?
+    - Altsözcük Atomlarına Ayırma: Optimal Sözcük Dağarcığı Boyutu
+  * Değerlendirme Ölçütleri
+    - İçsel Değerlendirme (Intrinsic): Kelime Benzerliği, Analoji
+    - Dışsal Değerlendirme (Extrinsic): Alt Görev Performansı
 
 
 # Kursa Kayıt
