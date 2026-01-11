@@ -49,18 +49,14 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Olabilirlik Tabanlı Birleştirme (Likelihood-based Merging)
     - Manuel Gerçekleştirim
 
-#### Unigram Dil Modeli (Unigram Language Model)
-- Yukarıdan Aşağıya Yaklaşım (Top-down Approach)
-- Olasılıksal Budama (Probabilistic Pruning)
+  * Kütüphaneler ile Atomlarına Ayırma
+    - NLTK Kütüphanesi İle Atomlarına Ayırma
+    - SpaCy Kütüphanesi İle Atomlarına Ayırma
+    - Hugging Face Tokenizers Kütüphanesi İle Atomlarına Ayırma
+    - SentencePiece Kütüphanesi İle Atomlarına Ayırma (BPE ve Unigram Modları)
+    - Zemberek Kütüphanesi İle Atomlarına Ayırma (Türkçe için)
 
-### Kütüphaneler ile Atomlarına Ayırma
-- NLTK Kütüphanesi İle Atomlarına Ayırma
-- SpaCy Kütüphanesi İle Atomlarına Ayırma
-- Hugging Face Tokenizers Kütüphanesi İle Atomlarına Ayırma
-- SentencePiece Kütüphanesi İle Atomlarına Ayırma (BPE ve Unigram Modları)
-- Zemberek Kütüphanesi İle Atomlarına Ayırma (Türkçe için)
-
-## Atomların Sayısal Biçimde Temsil Edilmesi
+__Atomların Sayısal Biçimde Temsil Edilmesi__
 
 ### Atomlar Neden Sayısal Biçimde Temsil Edilmektedir?
 - Makine Öğrenmesi Modelleri ve Vektör Uzayı
