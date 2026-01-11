@@ -56,15 +56,15 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - SentencePiece Kütüphanesi İle Atomlarına Ayırma (BPE ve Unigram Modları)
     - Zemberek Kütüphanesi İle Atomlarına Ayırma (Türkçe için)
 
-__Atomların Sayısal Biçimde Temsil Edilmesi__
-  * Temeller
-    - Atomlar Neden Sayısal Biçimde Temsil Edilmektedir?
-    - Makine Öğrenmesi Modelleri ve Vektör Uzayı
-    - Benzerlik Hesaplama (Kosinüs Benzerliği, Öklid Uzaklığı)
-  * One-hot-encoding Kodlaması
-  * Sözcük Çantası (Bag of Words) Yaklaşımı
-  * Manuel Gerçekleştirim
-  * scikit-learn Kütüphanesi ile Gerçekleştirim
+  * __Atomların Sayısal Biçimde Temsil Edilmesi__
+    * Temeller
+      - Atomlar Neden Sayısal Biçimde Temsil Edilmektedir?
+      - Makine Öğrenmesi Modelleri ve Vektör Uzayı
+      - Benzerlik Hesaplama (Kosinüs Benzerliği, Öklid Uzaklığı)
+    * One-hot-encoding Kodlaması
+    * Sözcük Çantası (Bag of Words) Yaklaşımı
+    * Manuel Gerçekleştirim
+    * scikit-learn Kütüphanesi ile Gerçekleştirim
 
 #### TF-IDF (Terim Frekansı-Ters Doküman Frekansı)
 - TF (Terim Frekansı) Hesaplama
