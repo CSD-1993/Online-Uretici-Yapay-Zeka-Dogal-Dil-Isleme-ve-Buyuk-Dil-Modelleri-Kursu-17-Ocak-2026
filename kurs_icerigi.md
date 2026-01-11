@@ -33,29 +33,24 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Karakter Düzeyinde Atomlarına Ayırma
     - Sözcük Düzeyinde Atomlarına Ayırma
     - Altsözcük Düzeyinde Atomlarına Ayırma (Subword)
-
   * Temel Atomlarına Ayırma Yöntemleri
     - Boşluk ve Noktalama Tabanlı Atomlarına Ayırma
     - Kural Tabanlı Atomlarına Ayırma
     - Manuel Gerçekleştirim
-
   * Byte Çiftlerinin Kodlanması (Byte Pair Encoding - BPE) Yöntemi
     - Algoritma
     - Birleştirme İşlemleri (Merge Operations)
     - Manuel Gerçekleştirim
-
   * WordPiece Yöntemi
     - BPE'den Farkları
     - Olabilirlik Tabanlı Birleştirme (Likelihood-based Merging)
     - Manuel Gerçekleştirim
-
   * Kütüphaneleri Kullanarak Atomlarına Ayırma
     - NLTK Kütüphanesi İle Atomlarına Ayırma
     - SpaCy Kütüphanesi İle Atomlarına Ayırma
     - Hugging Face Tokenizers Kütüphanesi İle Atomlarına Ayırma
     - SentencePiece Kütüphanesi İle Atomlarına Ayırma (BPE ve Unigram Modları)
     - Zemberek Kütüphanesi İle Atomlarına Ayırma (Türkçe için)
-
 * __Atomların Sayısal Biçimde Temsil Edilmesi__
     * Temeller
       - Atomlar Neden Sayısal Biçimde Temsil Edilmektedir?
