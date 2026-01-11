@@ -147,6 +147,45 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Sınama (Validation) İşleminin Anlamı
   * Test Veri Kümesi ile Yapay Sinir Ağı Modelinin Test Edilmesi
   * Keras Modelinin Dosyalarda Saklanması ve Geri Yüklenmesi
+  * Geri Beslemeli Sinir Ağları (Recurrent Neural Networks)
+  * Geri Beslemeli Sinir Ağlarında SimpleRNN, LSTM ve GRU Katmanları
+  * Çift Yönlü LSTM Katmanları
+  * Geri Beslemeli Sinir Ağlarının Kestirimde Kullanılmaları
+  * Geri Beslemeli Sinir Ağlarına İlişkin Örnekler
+  * Öğrenimin Aktarılması Sürecinin (Transfer Learning) Temelleri
+  * Evrişim İşlemleri ve Evrişim İşlemlerinin Bağlamsal Anlamı
+* __Dönüştürücüler (Tramsformers) ve Modern Doğal Dil İşlemeye Geçiş__
+   * Temel Kavramlar ve Tarihsel Bağlam
+     - Dizi İşleme Mimarileri ve Sınırlamaları
+     - RNN (Recurrent Neural Networks) Temelleri
+    - LSTM ve GRU Mimarileri
+    - Vanishing/Exploding Gradient Problemi
+    - Uzun Bağımlılıkların İşlenememesi
+    - Paralel Hesaplama Sınırlamalar
+  * Sequence-to-Sequence Modeller
+    - Encoder-Decoder Yapısı
+    - Klasik Attention Mekanizması
+    - Bahdanau (Additive) ve Luong (Multiplicative) Dikkat
+    - Hizalama (Alignment) Kavramı
+  * Dönüştürücü Modeline Geçiş
+    - Attention is All You Need" Makalesi İncelemesi
+    - Geri Beslemenin (Recurrence)  Kaldırılması
+    - Dönüştürücülerin Sağladığı Faydalar
+  * Dikkat Mekanizması
+    - Scaled Dot-Product Attention
+    - Çok Başlı (Multi-Head) Dikkat
+    - Dikkat Türleri
+  * Dikkat Mekanizmasının Tensorflow/Keras ile Gerçekleştirimi
+* Dönüştürücü Mimarileri
+  - Encoder Yapısı
+  - Decoder Yapısı
+  - Pozisyonel Encoding
+  - Dönüştürücülerin Diğer Bileşenleri
+  - Dönüştürücülerin Tensorflow/Keras İle Gerçekleştirimi
+
+    - 
+
+
 
 
 
