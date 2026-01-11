@@ -66,91 +66,85 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     * Manuel Gerçekleştirim
     * scikit-learn Kütüphanesi ile Gerçekleştirim
 
-  * TF-IDF (Terim Frekansı-Ters Doküman Frekansı)
-    - TF (Terim Frekansı) Hesaplama
-    - IDF (Ters Doküman Frekansı) Hesaplama
-    - Normalleştirme Teknikleri
+    * TF-IDF (Terim Frekansı-Ters Doküman Frekansı)
+      - TF (Terim Frekansı) Hesaplama
+      - IDF (Ters Doküman Frekansı) Hesaplama
+      - Normalleştirme Teknikleri
+      - Manuel Gerçekleştirim
+      - scikit-learn Kütüphanesi ile Gerçekleştirim
+
+  * N-Gram Modeller
+    - Unigram, Bigram, Trigram Kavramları
+    - Bağlamsal Bilginin Yakalanması
+    - Karakter vs Kelime N-gramları
     - Manuel Gerçekleştirim
     - scikit-learn Kütüphanesi ile Gerçekleştirim
 
-* N-Gram Modeller
-  - Unigram, Bigram, Trigram Kavramları
-  - Bağlamsal Bilginin Yakalanması
-  - Karakter vs Kelime N-gramları
-  - Manuel Gerçekleştirim
-  - scikit-learn Kütüphanesi ile Gerçekleştirim
+  * BPE Atomlarının Kodlanması
+    - Sözcük Dağarcığı → Kimlik Eşleşmesi (Vocabulary → ID Mapping)
+    - Atomdan Sayıya Dönüşüm
+    - Manuel Gerçekleştirim
+      - Hugging Face Tokenizers ile Kullanım
 
-* BPE Atomlarının Kodlanması
-  - Sözcük Dağarcığı → Kimlik Eşleşmesi (Vocabulary → ID Mapping)
-  - Atomdan Sayıya Dönüşüm
-  - Manuel Gerçekleştirim
-  - Hugging Face Tokenizers ile Kullanım
+  * WordPiece Atomlarının Kodlanması
+    - BERT Tokenizer Kullanımı (Hugging Face Transformers)
+    - Özel Simgeler (Special Tokens): [CLS], [SEP], [PAD], [MASK], [UNK]
+    - Dikkat Maskeleri (Attention Masks)
+    - Girdi Hazırlama (Input Preparation)
 
-* WordPiece Atomlarının Kodlanması
-  - BERT Tokenizer Kullanımı (Hugging Face Transformers)
-  - Özel Simgeler (Special Tokens): [CLS], [SEP], [PAD], [MASK], [UNK]
-  - Dikkat Maskeleri (Attention Masks)
-  - Girdi Hazırlama (Input Preparation)
+  * SentencePiece ile Kodlama
+    - BPE Modu
+    - Unigram Modu
+    - Model Eğitimi ve Kullanımı
+    - Sözcük Dağarcığı Yönetimi
 
-* SentencePiece ile Kodlama
-  - BPE Modu
-  - Unigram Modu
-  - Model Eğitimi ve Kullanımı
-  - Sözcük Dağarcığı Yönetimi
+  * Tiktoken (OpenAI GPT Atomlarına Ayırma)
+    - GPT-2/3/4 Tokenizer Kullanımı
+    - Atom Sayısı Hesaplama
+    - API Atom Limitleri
 
-* Tiktoken (OpenAI GPT Atomlarına Ayırma)
-  - GPT-2/3/4 Tokenizer Kullanımı
-  - Atom Sayısı Hesaplama
-  - API Atom Limitleri
+  * Sözcük Gömme (Word Embeddings)
+    - Seyrek vs Yoğun Temsiller (Sparse vs Dense Representations)
+    - Dağılımsal Anlambilim (Distributional Semantics)
+    - Gömme Uzayı Özellikleri
+    - Boyut İndirgeme vs Öğrenilmiş Gömmeler
 
-* Sözcük Gömme (Word Embeddings)
-  - Seyrek vs Yoğun Temsiller (Sparse vs Dense Representations)
-  - Dağılımsal Anlambilim (Distributional Semantics)
-  - Gömme Uzayı Özellikleri
-  - Boyut İndirgeme vs Öğrenilmiş Gömmeler
+  * Word2Vec Algoritması
+    - Skip-gram Modeli
+    - CBOW (Sürekli Sözcük Çantası - Continuous Bag of Words)
+    - Basitleştirilmiş Manuel İmplementasyon
+    - Gensim Kütüphanesi ile Gerçekleştirim
+    - Önceden Eğitilmiş Modeller (Pre-trained) (Türkçe Gömmeler)
+    - Benzerlik ve Analoji Testleri
 
-* Word2Vec Algoritması
-  - Skip-gram Modeli
-  - CBOW (Sürekli Sözcük Çantası - Continuous Bag of Words)
-  - Basitleştirilmiş Manuel İmplementasyon
-  - Gensim Kütüphanesi ile Gerçekleştirim
-  - Önceden Eğitilmiş Modeller (Pre-trained) (Türkçe Gömmeler)
-  - Benzerlik ve Analoji Testleri
+  * GloVe Algoritması
+    - Birlikte Görülme Matrisi (Co-occurrence Matrix)
+    - Word2Vec'e Göre Farkları
+    - Önceden Eğitilmiş GloVe Modelleri Kullanımı
 
-* GloVe Algoritması
-  - Birlikte Görülme Matrisi (Co-occurrence Matrix)
-  - Word2Vec'e Göre Farkları
-  - Önceden Eğitilmiş GloVe Modelleri Kullanımı
+  * FastText Algoritması
+    - Altsözcük Bilgisi Kullanımı (Subword Information)
+    - Karakter N-gramları
+    - Sözcük Dağarcığı Dışı Sözcük İşleme (OOV Handling)
+    - Gensim Kütüphanesi ile Gerçekleştirim
 
-* FastText Algoritması
-  - Altsözcük Bilgisi Kullanımı (Subword Information)
-  - Karakter N-gramları
-  - Sözcük Dağarcığı Dışı Sözcük İşleme (OOV Handling)
-  - Gensim Kütüphanesi ile Gerçekleştirim
-
-* Doküman ve Cümle Gömmeleri
-  - Basit Birleştirme Yöntemleri (Aggregation)
+  * Doküman ve Cümle Gömmeleri
+    - Basit Birleştirme Yöntemleri (Aggregation)
     - Ortalama Havuzlama (Average Pooling)
     - Ağırlıklı Ortalama (TF-IDF Ağırlıklandırma)
     - Maksimum/Minimum Havuzlama (Max/Min Pooling)
     - Manuel Gerçekleştirimler
 
-* Doc2Vec (Paragraf Vektörleri)
+  * Doc2Vec (Paragraf Vektörleri)
     - PV-DM ve PV-DBOW
     - Gensim Kütüphanesi ile Kullanım
 
-* Cümle Dönüştürücüleri (Sentence Transformers - SBERT)
+  * Cümle Dönüştürücüleri (Sentence Transformers - SBERT)
     - SBERT Yaklaşımı
     - sentence-transformers Kütüphanesi
     - Önceden Eğitilmiş Modeller
   
-* Bağlamsal Gömme İşlemleri (Contextualized Embeddings)
-
-* Statik ve Bağlamsal Gömmeler
-  - Çok Anlamlılık Problemi (Polysemy)
-  - Bağlama Bağlı Temsiller
-
-* 2BERT Gömmeleri (WordPiece Kullanımı)
+* WordPiece Kullanımı
   - BERT Atomlarına Ayırma Hattı (Pipeline)
   - Gömme Çıkarımı (Embedding Extraction)
   - Hugging Face Transformers ile Kullanım
