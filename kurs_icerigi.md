@@ -24,20 +24,22 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Veri Madenciliği Nedir?
   * Doğal Dil İşleme Medir?
 
-* __Metinlerin Atomlarına Ayrıştırılması (Tokenizastion)__
-  * Atom Nedir? Atomlara Ayrıştırma Ne Anlama Gelmektedir?
+* __Metinlerin Atomlarına Ayrılması (Tokenizastion)__
+  * Atom Nedir? Atomlara Ayırma Ne Anlama Gelmektedir?
   * Sözük Dağarcığı (Vocabulary) Kavramı
-  * Karakter Düzeyinde Atomlarına Ayrıştırma (Character Level Tokenization)
-  * Söcük Düzeyinde Atomlarına Ayrıştırma (Word Level Tokenization)
-  * Altsözcük Düzeyinde Atomlarına Ayrıştırma (Subword Tokenization)
-  * Boşluklardan ve Noktalama İşaretlerinden FaydalanarakAtomlarına Ayırma Yönteminin Gerçekelştirimi
+  * Karakter Düzeyinde Atomlarına Ayırma (Character Level Tokenization)
+  * Söcük Düzeyinde Atomlarına Ayırma (Word Level Tokenization)
+  * Altsözcük Düzeyinde Atomlarına Ayırma (Subword Tokenization)
+  * Boşluklardan ve Noktalama İşaretlerinden Faydalanarak Atomlarına Ayırma Yönteminin Gerçekelştirimi
   * Kural Tabanlı Atomlarına Ayırma İşlemleri Gerçekelştirimi
-  * Altsözcük Düzeyinde Atomlarına Ayrıştırma (Subword Tokenization) Yöntemlerinin Gerçekleştirilmesi
+  * Altsözcük Düzeyinde Atomlarına Ayırma (Subword Tokenization) Yöntemlerinin Gerçekleştirilmesi
   * Byte Çiftlerinin Kodlanması (Byte Pair Encoding) Yönteminin Gerçekleştirilmesi
   * WordPiece Yönteminin Gerçekleştirilmesi
   * SentencePiece Yönteminin Gerçekleştirilmesi
   * NLTK Kütüphanesi İle Atomlşara Ayırma
-  * HauggingFace Transformers Kütüphanesi İle Atomlara Ayırma İşlemleri 
+  * SpaCy Kütüphanesi İle Atomlarına Ayırma İşlemleri
+  * Haugging Face Kütüphanesi İle Atomlara Ayırma İşlemleri
+  * 
 
 * __Klasik Doğal Dil İşlemede Temel İşlemler__
   * Kök Bulma (Stemming) ve Kök Biçimleme (Lemmatization) İşlemleri
