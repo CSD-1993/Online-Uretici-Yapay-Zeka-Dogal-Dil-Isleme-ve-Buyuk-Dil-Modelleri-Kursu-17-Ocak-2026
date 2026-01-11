@@ -22,23 +22,22 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Veri Madenciliği Nedir?
   * Doğal Dil İşleme Medir?
 
-##  Metinlerin Atomlarına Ayrılması (Tokenization)
+__Metinlerin Atomlarına Ayrılması (Tokenization)__
+  * Temel Kavramlar
+  - Sözcük Dağarcığı (Vocabulary)
+  - Derlem (Corpus)
+  - Doküman (Document)
+  - Atom vs Tip Kavramları (Token vs Type)
 
-### Temel Kavramlar
-- Sözcük Dağarcığı (Vocabulary)
-- Derlem (Corpus)
-- Doküman (Document)
-- Atom vs Tip Kavramları (Token vs Type)
+  * Atom Düzeyleri
+    - Karakter Düzeyinde Atomlarına Ayırma
+    - Sözcük Düzeyinde Atomlarına Ayırma
+  - Altsözcük Düzeyinde Atomlarına Ayırma (Subword)
 
-### Atom Düzeyleri
-- Karakter Düzeyinde Atomlarına Ayırma
-- Sözcük Düzeyinde Atomlarına Ayırma
-- Altsözcük Düzeyinde Atomlarına Ayırma (Subword)
-
-### Temel Atomlarına Ayırma Yöntemleri
-- Boşluk ve Noktalama Tabanlı Atomlarına Ayırma
-- Kural Tabanlı Atomlarına Ayırma
-- Manuel Gerçekleştirim
+  * Temel Atomlarına Ayırma Yöntemleri
+    - Boşluk ve Noktalama Tabanlı Atomlarına Ayırma
+    - Kural Tabanlı Atomlarına Ayırma
+  - Manuel Gerçekleştirim
 
 ### Altsözcük Düzeyinde Atomlarına Ayırma Algoritmaları
 
