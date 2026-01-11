@@ -59,10 +59,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * FastText Algoritması
   * Sözcük Gömme İşlemlerinin Kütüphaneler Yoluyla Gerçekleştirilmesi
   * Bağlamsal Gönmme İşlemleri (Contextualized Embeddings)
-  * BERT Atomlarına Ayırması
-  * GPT Atomlarına Ayırması
-  *   
-  
+
 # Kursa Kayıt
 [Kursumuza ön kayıt yaptırmak için bu bağlantıyı kullanabilirsiniz.](https://us02web.zoom.us/meeting/register/A2N5yVVXStuiYN0tAXTeJw#/registration)
 
