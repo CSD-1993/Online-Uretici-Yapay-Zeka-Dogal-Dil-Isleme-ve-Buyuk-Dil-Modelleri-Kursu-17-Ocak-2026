@@ -60,7 +60,7 @@ __Atomların Sayısal Biçimde Temsil Edilmesi__
   * Temeller
     - Atomlar Neden Sayısal Biçimde Temsil Edilmektedir?
     - Makine Öğrenmesi Modelleri ve Vektör Uzayı
-    -Benzerlik Hesaplama (Kosinüs Benzerliği, Öklid Uzaklığı)
+    - Benzerlik Hesaplama (Kosinüs Benzerliği, Öklid Uzaklığı)
   * One-hot-encoding Kodlaması
   * Sözcük Çantası (Bag of Words) Yaklaşımı
   * Manuel Gerçekleştirim
