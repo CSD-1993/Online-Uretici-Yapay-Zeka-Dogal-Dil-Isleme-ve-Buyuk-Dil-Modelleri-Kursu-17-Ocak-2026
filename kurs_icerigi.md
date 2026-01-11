@@ -200,23 +200,16 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - ALBERT (A Lite BERT)
     - ELECTRA (Efficiently Learning an Encoder)
     - DeBERTa (Decoding-enhanced BERT)
-
-
-
-Model Karşılaştırmaları
-
-Bidirectional vs Unidirectional Attention
-Encoder-only vs Decoder-only vs Encoder-Decoder
-Model Boyutları ve Performans Trade-off'ları
-
-
-Hugging Face Transformers Kütüphanesi
-
-Model Hub Kullanımı
-AutoModel ve AutoTokenizer
-Pipeline API ile Hızlı Kullanım
-Fine-tuning İşlemleri
-Model Kaydetme ve Yükleme
+  * Model Karşılaştırmaları
+    - Çift Yönlü (Bidirectional) ve Tek Yönlü (Unidirectional) Dİkkat
+    - Encoder-only,  Decoder-only, Encoder-Decoder Modeller
+    - Model Boyutları ve Performans İlişkisi
+  * Hugging Face Transformers Kütüphanesinin Kullanımı
+    - Model Hub Kullanımı
+    - AutoModel ve AutoTokenizer
+    - Pipeline API ile Hızlı Kullanım
+    - İnce Ayar İşlemleri İşlemleri
+    - Model Kaydetme ve Yükleme
 
 
 
