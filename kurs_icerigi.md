@@ -176,14 +176,13 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Çok Başlı (Multi-Head) Dikkat
     - Dikkat Türleri
   * Dikkat Mekanizmasının Tensorflow/Keras ile Gerçekleştirimi
-  * Dönüştürücü Mimarileri
+  * Dönüştürücü Mimarisi
     - Encoder Yapısı
     - Decoder Yapısı
     - Pozisyonel Encoding
     - Dönüştürücülerin Diğer Bileşenleri
     - Dönüştürücülerin Tensorflow/Keras İle Gerçekleştirimi
-
-    - 
+  
 
 
 
