@@ -22,7 +22,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Veri Madenciliği Nedir?
   * Doğal Dil İşleme Medir?
 
-__Metinlerin Atomlarına Ayrılması (Tokenization)__
+* __Metinlerin Atomlarına Ayrılması (Tokenization)__
   * Temel Kavramlar
     - Sözcük Dağarcığı (Vocabulary)
     - Derlem (Corpus)
