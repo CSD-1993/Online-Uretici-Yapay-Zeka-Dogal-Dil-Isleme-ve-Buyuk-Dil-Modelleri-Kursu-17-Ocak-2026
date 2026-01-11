@@ -209,8 +209,11 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - AutoModel ve AutoTokenizer
     - Pipeline API ile Hızlı Kullanım
     - İnce Ayar İşlemleri İşlemleri
-    - Model Kaydetme ve Yükleme
-*__ Büyük Dil Modelleri__
+    - Model Kaydetme ve Yükleme     
+*__Büyük Dil Modelleri__
+  * GPT ve Büyük Dil Modelleri
+  * LLaMA Mimarisi
+  * LLaMA Türevleri
   * Büyük Dil Modellerinin Temelleri ve Ölçeklendirme
     - Büyük Dil Modellerine Giriş
     - Model Ölçeklendirme Stratejileri
@@ -228,7 +231,19 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Pekiştirmeli Öğrenmeden Faydalanma
     - Direct Preference Optimization (DPO)
     - Diğer Teknikler
-    
+* __Küçük Dİl Modelleri (Small Language Models)__
+  * Küçük Dil Modellerine Giriş
+  * Büyük Dil Modelleriyle Küçük Dil Modellerinin Karşılaştırılması
+  * Modern Küçük Dil Modelleri Örnekleri ve Mimarileri
+  * TinyLLaMA
+  * MiniLM
+  * DistilBERT
+  * Gemma (Küçük Boyutlar)
+  * Mobil Cihazlara Uygun Küçük Dil Modelleri
+  * Küçük Dil Modellerinin Eğitimi ve Türetimi Teknikleri
+  * Küçük Dil Modellerinin Kullanım Senaryoları ve Deployment
+
+   
 
 
 
