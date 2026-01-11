@@ -11,7 +11,6 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
    * SciPy ve scikit-learn Kütüphanelerinin Genel Tanıtımı
    * Tensorflow, Keras ve PyTorch Kütüphanelerinin Genel Tanıtımı
    * HuggingFace Kütüphanelerinin Genel Tanıtımı
-
 * __Giriş ve Temel Bilgiler__
   * Makine Öğrenmesi Nedir?
   * Makine Öğrenmesinin Çeşitleri: Denetimli (Supervised) Öğrenme, Denetimsiz (Unsupervised) Öğrenme ve Pekiştirmeli (Reinforcement) Öğrenme Kavramları
@@ -21,7 +20,6 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Veri Bilimi ile Yapay Zeka ve Makine Öğrenmesi Arasındaki İlişki
   * Veri Madenciliği Nedir?
   * Doğal Dil İşleme Medir?
-
 * __Metinlerin Atomlarına Ayrılması (Tokenization)__
   * Temel Kavramlar
     - Sözcük Dağarcığı (Vocabulary)
@@ -182,7 +180,43 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Pozisyonel Encoding
     - Dönüştürücülerin Diğer Bileşenleri
     - Dönüştürücülerin Tensorflow/Keras İle Gerçekleştirimi
-  
+* __Önceden Eğitilmiş Modeller__
+  * BERT (Bidirectional Encoder Representations from Transformers)
+    - Mimari Detayları (Base ve Large)
+    - Masked Language Modeling (MLM)
+    - Next Sentence Prediction (NSP)
+    - Önceden Eğitim (Pre-training) ve İnce Ayar (Fine-tuning) Mekanizmaları
+  * GPT (Generative Pre-trained Transformer)
+    - GPT-1, GPT-2, GPT-3 Evrimi
+    - Tek Yönlü (Unidirectional) Decoder Mimarisi
+    - Autoregressive Language Modeling
+    - Zero-shot, Few-shot, One-shot Öğrenim
+  * T5 (Text-to-Text Transfer Transformer)
+    - Unified Text-to-Text Framework
+    - C4 Dataset ve Pre-training Görevleri
+    - Encoder-Decoder Mimarisi
+  * Diğer Önemli Modeller
+    - RoBERTa (Robustly Optimized BERT)
+    - ALBERT (A Lite BERT)
+    - ELECTRA (Efficiently Learning an Encoder)
+    - DeBERTa (Decoding-enhanced BERT)
+
+
+
+Model Karşılaştırmaları
+
+Bidirectional vs Unidirectional Attention
+Encoder-only vs Decoder-only vs Encoder-Decoder
+Model Boyutları ve Performans Trade-off'ları
+
+
+Hugging Face Transformers Kütüphanesi
+
+Model Hub Kullanımı
+AutoModel ve AutoTokenizer
+Pipeline API ile Hızlı Kullanım
+Fine-tuning İşlemleri
+Model Kaydetme ve Yükleme
 
 
 
