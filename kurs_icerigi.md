@@ -39,7 +39,12 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * NLTK Kütüphanesi İle Atomlşara Ayırma
   * SpaCy Kütüphanesi İle Atomlarına Ayırma İşlemleri
   * Haugging Face Kütüphanesi İle Atomlara Ayırma İşlemleri
-  * 
+  * SentencePiece Kütüphanesi İle Atomlara Ayırma İşlemleri
+  * Zemberek Kütüphanesi İle Atomlara Ayırma İşlemleri
+
+* __Atomların Sayısal Biçimde Temsil Edilmesi__
+  
+  * Kök Bulma (Stemming) ve Kök Biçimleme (Lemmatization) İşlemleri     
 
 * __Klasik Doğal Dil İşlemede Temel İşlemler__
   * Kök Bulma (Stemming) ve Kök Biçimleme (Lemmatization) İşlemleri
