@@ -49,7 +49,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Olabilirlik Tabanlı Birleştirme (Likelihood-based Merging)
     - Manuel Gerçekleştirim
 
-  * Kütüphaneler ile Atomlarına Ayırma
+  * Kütüphaneleri Kullanarak Atomlarına Ayırma
     - NLTK Kütüphanesi İle Atomlarına Ayırma
     - SpaCy Kütüphanesi İle Atomlarına Ayırma
     - Hugging Face Tokenizers Kütüphanesi İle Atomlarına Ayırma
@@ -57,19 +57,14 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Zemberek Kütüphanesi İle Atomlarına Ayırma (Türkçe için)
 
 __Atomların Sayısal Biçimde Temsil Edilmesi__
-
-### Atomlar Neden Sayısal Biçimde Temsil Edilmektedir?
-- Makine Öğrenmesi Modelleri ve Vektör Uzayı
-- Benzerlik Hesaplama (Kosinüs Benzerliği, Öklid Uzaklığı)
-
-### Klasik Yöntemler
-
-#### One-Hot Encoding ve Sözcük Çantası (Bag of Words)
-- One-hot-encoding Kodlaması
-- Sözcük Çantası Yaklaşımı
-- Avantajları ve Dezavantajları
-- Manuel Gerçekleştirim
-- scikit-learn Kütüphanesi ile Gerçekleştirim
+  * Temeller
+    - Atomlar Neden Sayısal Biçimde Temsil Edilmektedir?
+    - Makine Öğrenmesi Modelleri ve Vektör Uzayı
+    -Benzerlik Hesaplama (Kosinüs Benzerliği, Öklid Uzaklığı)
+  * One-hot-encoding Kodlaması
+  * Sözcük Çantası (Bag of Words) Yaklaşımı
+  * Manuel Gerçekleştirim
+  * scikit-learn Kütüphanesi ile Gerçekleştirim
 
 #### TF-IDF (Terim Frekansı-Ters Doküman Frekansı)
 - TF (Terim Frekansı) Hesaplama
