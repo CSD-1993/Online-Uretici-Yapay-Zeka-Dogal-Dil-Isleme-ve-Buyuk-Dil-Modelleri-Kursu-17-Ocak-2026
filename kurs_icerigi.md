@@ -236,7 +236,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Few-shot Prompt'lama
     - Negative Prompt'lama
     - Prompt Template Tasarımı
-  * İleri Prompting Teknikleri
+  * İleri Promp Teknikleri
   * Büyük Dil Modellerinde Değerlendirme ve Benchmark İşlemleri
     - Geleneksel NLP Metrikleri
     - Büyük Dil Modellerine Özgü Benchmark Testleri
