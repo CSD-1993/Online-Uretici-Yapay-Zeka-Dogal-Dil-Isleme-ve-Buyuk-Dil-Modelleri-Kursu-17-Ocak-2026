@@ -294,7 +294,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * RAG Sistemlerinin Değerlendirilmesi
     - Retrieval Metrics
     - Generation Quality
-*__Yapay Zeka Ajanları ve Ajan İletişim Protokolleri__
+* __Yapay Zeka Ajanları ve Ajan İletişim Protokolleri__
   * Yapay Zeka Ajanlarının Temelleri
   * Ajan Mimarisi
   * Ajan Türleri
