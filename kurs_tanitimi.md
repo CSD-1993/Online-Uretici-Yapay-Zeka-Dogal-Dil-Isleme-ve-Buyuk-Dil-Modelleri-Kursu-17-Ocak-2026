@@ -6,7 +6,6 @@ Kursumuz başlayana kadar Derneğimizin açmış olduğu, "Yapay Zeka, Makine Ö
 https://github.com/CSD-1993/KursNotlari/blob/master/YapayZeka-MakineOgrenmesi-VeriBilimi-OzetNotlar-Ornekler-Bolum1.txt
 https://github.com/CSD-1993/KursNotlari/blob/master/YapayZeka-MakineOgrenmesi-VeriBilimi-OzetNotlar-Ornekler-Bolum2.txt
 
-
 ## Ön Koşul
  Temel düzeyde Python Programlama Dili bilgisine sahip olmak.
  Kursumuza yapay zeka, makine öğrenmesi ve veri bilimi konularına ilgi duyan herkes katılabilir.
@@ -19,6 +18,12 @@ Dersler __Cumartesi Pazar__ günleri saat __17:00-21:00__ saatleri arasında __4
 
 # Eğitmen
 Kurs __C ve Sistem Programcıları Derneği__ başkanı __Kaan ASLAN__ tarafından verilmektedir. __Kaan ASLAN__ yazılım alanında Türkiye’deki en deneyimli eğitmenlerdendir. Çeşitli pozisyonlarda onlarca projede bulunmuş, __200__'ün üzerinde kuruma eğitim ve danışmanlık hizmetleri vermiştir. 
+
+# Kursumuza Kimler Katılmalı
+- Büyük ve Küçük Dil Modellerinin algoritmik yapısını ve bileşenlerini, nasıl işletildiğini, nasıl gerçekleştirildiğini ve nasıl kullanıma hazır hale getirildiğini öğrenmek isteyen kişiler.
+- Genel olarak üretici ağlar üzerinde çalışmak isteyen, bu konuda kapsamlı bilgi elde etmek isteyen ve beceri kazanmak isteyen kişiler.
+- Bu konularda kariyer planı oluşturmak isteyenler.
+- Büyük ve Küçük Dil Modellerini kendi projelernde kullanmak isteyen kişiler.
 
 # Kursa Kayıt
 
