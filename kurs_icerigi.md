@@ -152,7 +152,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Geri Beslemeli Sinir Ağlarına İlişkin Örnekler
   * Öğrenimin Aktarılması Sürecinin (Transfer Learning) Temelleri
   * Evrişim İşlemleri ve Evrişim İşlemlerinin Bağlamsal Anlamı
-* __Dönüştürücüler (Tramsformers) ve Modern Doğal Dil İşlemeye Geçiş__
+* __Dönüştürücüler (Transformers) ve Modern Doğal Dil İşlemeye Geçiş__
   * Temel Kavramlar ve Tarihsel Bağlam
     - Dizi İşleme Mimarileri ve Sınırlamaları
     - RNN (Recurrent Neural Networks) Temelleri
