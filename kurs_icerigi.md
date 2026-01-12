@@ -10,7 +10,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
    * Scipy, Numpy, Pandas ve Matplotlib Kütüphanelerinin Genel Tanıtımı
    * SciPy ve scikit-learn Kütüphanelerinin Genel Tanıtımı
    * Tensorflow, Keras ve PyTorch Kütüphanelerinin Genel Tanıtımı
-   * HuggingFace Kütüphanelerinin Genel Tanıtımı
+   * HuggingFace ve Diğer Makine Öğrenmesi ve Doğal Dil İşleme Kütüphanelerinin Genel Tanıtımı
 * __Giriş ve Temel Bilgiler__
   * Makine Öğrenmesi Nedir?
   * Makine Öğrenmesinin Çeşitleri: Denetimli (Supervised) Öğrenme, Denetimsiz (Unsupervised) Öğrenme ve Pekiştirmeli (Reinforcement) Öğrenme Kavramları
@@ -26,7 +26,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Derlem (Corpus)
     - Doküman (Document)
     - Atom vs Tip Kavramları (Token vs Type)
-  * Atom Düzeyleri
+  * Atomlara Ayırmada Düzeyler
     - Karakter Düzeyinde Atomlarına Ayırma
     - Sözcük Düzeyinde Atomlarına Ayırma
     - Altsözcük Düzeyinde Atomlarına Ayırma (Subword)
@@ -154,8 +154,8 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Evrişim İşlemleri ve Evrişim İşlemlerinin Bağlamsal Anlamı
 * __Dönüştürücüler (Tramsformers) ve Modern Doğal Dil İşlemeye Geçiş__
   * Temel Kavramlar ve Tarihsel Bağlam
-     - Dizi İşleme Mimarileri ve Sınırlamaları
-     - RNN (Recurrent Neural Networks) Temelleri
+    - Dizi İşleme Mimarileri ve Sınırlamaları
+    - RNN (Recurrent Neural Networks) Temelleri
     - LSTM ve GRU Mimarileri
     - Vanishing/Exploding Gradient Problemi
     - Uzun Bağımlılıkların İşlenememesi
@@ -231,6 +231,29 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Pekiştirmeli Öğrenmeden Faydalanma
     - Direct Preference Optimization (DPO)
     - Diğer Teknikler
+  * Prompt İşlemleri ve Bağlam İçinde Öğrenme
+    - Zero-shot Prompt'lama
+    - Few-shot Prompt'lama
+    - Negative Prompt'lama
+    - Prompt Template Tasarımı
+  * İleri Prompting Teknikleri
+  * Büyük Dil Modellerinde Değerlendirme ve Benchmark İşlemleri
+    - Geleneksel NLP Metrikleri
+    - Büyük Dil Modellerine Özgü Benchmark Testleri
+    - Akıl Yürütme ve Yetenek Testleri
+    - İnsanlar Tarafından Değerlendirme
+  * Büyük Dil Modellerindeki Etik ve Sorumluluk Gerektiren Sornlar
+    - Büyük Dil Modellerinde Yanlılık ve Tarafsızlık
+    - Zararlı İçerikler
+    - Halüsinasyon Olgusu
+    - Özel Bilgilerin Güvenliği
+* __Açık Kaynak Kodlu Büyük Dil Modelleri__
+  * Büyük Dil Uygulama Platformları Hakkında Bilgiler
+    - LangChain Architecture
+    - LlamaIndex (RAG Framework)
+    - Semantic Kernel (Microsoft)
+    - AutoGen (Multi-Agent Framework)
+  * Vektör Veritabanları
 * __Küçük Dİl Modelleri (Small Language Models)__
   * Küçük Dil Modellerine Giriş
   * Büyük Dil Modelleriyle Küçük Dil Modellerinin Karşılaştırılması
@@ -253,11 +276,11 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Sparse Retrieval (BM25, TF-IDF)
     - Hybrid Search
     - Gömülü Modelleri
-   * Vector VEritabanarı
+   * Vector Veritabanarı
     - Pinecone, Weaviate, ChromaDB, Qdrant
     - Index Tipleri (HNSW, IVF)
     - Similarity Search
-  * Document Processing
+  * Doküman İşleme
     - Chunking Stratejileri
     - Metadata Extraction
     - Document Loaders
