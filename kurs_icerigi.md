@@ -1,7 +1,7 @@
 # Online Üretici Yapay Zeka, Doğal Dil İşleme ve Büyük Dil Modelleri (350 saat)
 
 
-Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil modellerini çeşitli düzeylerde kapsamlı bir biçimde ele almaktadır. Kursumuz yapay zeka alanında devrimsel bir etkiye yol açan bu teknolojilerin teorik altyapıları ve gerçekleştirimleri konusunda uygulamalı bilgiler vermeyi ve beceriler kazandırmayı hedeflemektedir. Aşağıdaki Kkurs konuları çeşitli derinliklerde ele alınacaktır.
+Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil modellerini çeşitli düzeylerde kapsamlı bir biçimde ele almaktadır. Kursumuz yapay zeka alanında devrimsel bir etkiye yol açan bu teknolojilerin teorik altyapıları ve gerçekleştirimleri konusunda uygulamalı bilgiler vermeyi ve beceriler kazandırmayı hedeflemektedir. Bu alan çok hızlı ilerlediği için ve kursumuz uzun sürdüğü için kurs sırasında başka konu eklemeleri yapılabilecektirr. Aşağıdaki belirttiğimiz kurs konuları temel alınacak ve bu konular çeşitli derinliklerde ele alınacaktır.
 
 * __Gözden Geçirme ve Hazırlık__
    * Yapay Zeka, Makine Öğrenmesi ve Veri Bilimi İçin Neden Python? 
