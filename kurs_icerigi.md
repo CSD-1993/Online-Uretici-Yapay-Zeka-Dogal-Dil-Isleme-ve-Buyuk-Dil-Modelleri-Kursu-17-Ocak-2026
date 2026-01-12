@@ -265,7 +265,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Mobil Cihazlara Uygun Küçük Dil Modelleri
   * Küçük Dil Modellerinin Eğitimi ve Türetimi Teknikleri
   * Küçük Dil Modellerinin Kullanım Senaryoları ve Deployment
-*__Retrieval-Augmented Generation (RAG) Sistemleri__
+* __Retrieval-Augmented Generation (RAG) Sistemleri__
   * RAG Temelleri
     - RAG Neye Yarıyor?
     - Büyük Dil Modellerinde Halüsinasyon Problemi
@@ -357,16 +357,6 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     * Görüntü Tabanlı GAN Mimarileri
     * Görsel Üretim Uygulamaları
     * GAN ve Diffusion
-    
-
-
-    
-      
-    
-   
-
-
-
 
 # Kursa Kayıt
 [Kursumuza ön kayıt yaptırmak için bu bağlantıyı kullanabilirsiniz.](https://us02web.zoom.us/meeting/register/A2N5yVVXStuiYN0tAXTeJw#/registration)
