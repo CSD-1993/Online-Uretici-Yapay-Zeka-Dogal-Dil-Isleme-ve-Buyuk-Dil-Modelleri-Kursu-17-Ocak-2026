@@ -339,6 +339,27 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Benchmark Testleri
     - Test ve Debug Stratejileri
   * Ajanların Konuşlandırılması (Deployment)
+    - Ajan Konuşlandırma Mimarileri
+    - Ölçekleme Stratejileri
+    - İzleme ve Gözlemleme
+    - Maliyet Unsurlarını Gözden Geçirme
+* __Büyük Dil Modelleribi Sıfırdan Eğitme__
+  * Veri Hazırlama
+  * Mini Büyük Dil Modeli Mimarisi
+  * Eğitim Süreci
+  * Değerlendirme
+  * Konuşlandırma (Deployment) Yöntemlerine Toplu Bakış
+* __Görüntüsel İşlemler Yapan üretici Ağlar__
+    * GAN Temelleri
+        - Generator / Discriminator
+        - Min–max oyun teorisi
+        - Loss fonksiyonları
+    * Görüntü Tabanlı GAN Mimarileri
+    * Görsel Üretim Uygulamaları
+    * GAN ve Diffusion
+    
+
+
     
       
     
