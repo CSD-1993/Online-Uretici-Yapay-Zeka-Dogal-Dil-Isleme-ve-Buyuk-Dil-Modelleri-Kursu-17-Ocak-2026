@@ -117,7 +117,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
   * Değerlendirme Ölçütleri
     - İçsel Değerlendirme (Intrinsic): Kelime Benzerliği, Analoji
     - Dışsal Değerlendirme (Extrinsic): Alt Görev Performansı
-* __Klasik Doğal Dil İşleme Algoritmalarının Temel Olarak Gözden Geçirilmesi__
+* __Klasik Doğal Dil İşleme Algoritmalarının Temel Düzeyde Gözden Geçirilmesi__
   * Naive Bayes Yöntemi
   * Lojistik Regresyon Yöntemi
   * Destek Vektör Makineleri (SVM) Yöntemi
