@@ -1,7 +1,7 @@
 # Online Üretici Yapay Zeka, Doğal Dil İşleme ve Büyük Dil Modelleri (350 saat)
 
 
-Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil modellerini çeşitli düzeylerde kapsamlı bir biçimde ele almaktadır. Kursumuz yapay zeka alanında devrimsel bir etkiye yol açan bu teknolojilerin teorik altyapıları ve gerçekleştirimleri konusunda uygulamalı bilgiler vermeyi ve beceriler kazandırmayı hedeflemektedir. 
+Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil modellerini çeşitli düzeylerde kapsamlı bir biçimde ele almaktadır. Kursumuz yapay zeka alanında devrimsel bir etkiye yol açan bu teknolojilerin teorik altyapıları ve gerçekleştirimleri konusunda uygulamalı bilgiler vermeyi ve beceriler kazandırmayı hedeflemektedir. Aşağıdaki Kkurs konuları çeşitli derinliklerde ele alınacaktır.
 
 * __Gözden Geçirme ve Hazırlık__
    * Yapay Zeka, Makine Öğrenmesi ve Veri Bilimi İçin Neden Python? 
@@ -276,7 +276,7 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Sparse Retrieval (BM25, TF-IDF)
     - Hybrid Search
     - Gömülü Modelleri
-   * Vector Veritabanarı
+  * Vector Veritabanarı
     - Pinecone, Weaviate, ChromaDB, Qdrant
     - Index Tipleri (HNSW, IVF)
     - Similarity Search
@@ -284,16 +284,64 @@ Açıklama: Bu kursumuz üretici ağlar, doğal dil işleme ve büyük dil model
     - Chunking Stratejileri
     - Metadata Extraction
     - Document Loaders
-* Re-ranking ve Filtering
-  - Cross-encoder Re-rankers
-  - Diversity ve MMR
-* Advanced RAG
-  - Self-RAG
-  - Düzeltici (Corrective) RAG (CRAG)
-  - Ajanlı RAG
-* RAG Sistemlerinin Değerlendirilmesi
-  - Retrieval Metrics
-  - Generation Quality
+  * Re-ranking ve Filtering
+    - Cross-encoder Re-rankers
+    - Diversity ve MMR
+  * Advanced RAG
+    - Self-RAG
+    - Düzeltici (Corrective) RAG (CRAG)
+    - Ajanlı RAG
+  * RAG Sistemlerinin Değerlendirilmesi
+    - Retrieval Metrics
+    - Generation Quality
+- *__Yapay Zeka Ajanları ve Ajan İletişim Protokolleri__
+  * Yapay Zeka Ajanlarının Temelleri
+  * Ajan Mimarisi
+  * Ajan Türleri
+  * Büyük Dil Modelleri İçin Ajanlar
+  * Ajan Protokolleri
+  * MCP (Model Context Protocol)
+  * MCP Kaynakları
+  * MCP Araçları
+  * MCP İle Kodlama İşlemleri
+  * OpenAI Fonksiyon Çağırma İşlemleri
+  * Agent Protocol Standardı (e2b)
+  * LangChain Tool Protokolü
+  * Protokollerin Karşılaştırılması
+  * Çok Ajanlı Sistemler
+    - Çok Ajanlı Mimariler
+    - Ajan Rolleri ve ÖZellikleri
+    - Ajan Haberleşmeleri
+    - Çok Ajanları Framework'lere Genel Bakış
+  * Yaygın Biçimde Kullanılan Ajan Framework'lerine Bakış
+    - LangGraph
+    - LangChain Ajanları
+    - AutoGen
+    - Semantic Kernel
+    - Ajanlar İçin Bulut Masaüstü Çözümleri
+      - Amazon AWS
+      - Microsoft Azure
+      - Google Cloud Platform
+  * Kod Üretimi (Kod Generation) Ajanları
+    - Kod Yazım Ajanları
+    - Kod Çalıştırma Ortamları
+    - Kod Ajanları İçin MCP
+    - AutoGPT ve Türevleri
+    - Yazılım Geliştirme Ajanları
+  * Özelleştirilmiş Ajanlar
+    - Araştırma Ajanları
+    - Veri Analizi Ajanları
+    - Müşteri Hizmetleri Ajanları
+    - Kişisel Yardım Ajanları
+  * Ajanların Değerlendirilmesi ve Test Edilmesi
+    - Performans Metrikleri
+    - Kalite Metrikleri
+    - Benchmark Testleri
+    - Test ve Debug Stratejileri
+  * Ajanların Konuşlandırılması (Deployment)
+    
+      
+    
    
 
 
